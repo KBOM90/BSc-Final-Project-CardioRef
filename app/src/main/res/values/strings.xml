@@ -1,0 +1,19 @@
+<resources>
+    <string name="correct_ans">Answer is correct</string>
+    <string name="wrong_ans">Answer is wrong</string>
+    <string name="app_name">CardioRef_HomePage</string>
+    <string name="cardiovascular_diseases_cvd_s">Cardiovascular Diseases (CVD\'s)</string>
+    <string name="home_dictionary">Dictionary\n</string>
+    <string name="home_newsletter">News Articles</string>
+    <string name="home_knowledge">CVD\'s Quiz</string>
+    <string name="coronary_heart_disease">Coronary Heart Disease</string>
+    <string name="tv_overview">OVERVIEW</string>
+    <string name="management">MANAGEMENT</string>
+    <string name="diagnosis">DIAGNOSIS</string>
+    <string name="causes">CAUSES</string>
+    <string name="signs_and_symptoms">SIGNS AND SYMPTOMS</string>
+    <string name="add_word">Add Word</string>
+    <string name="cvd_description">Overview, Signs and Symptoms, Causes, Diagnosis, Management</string>
+    <string name="previous_question">Previous Question</string>
+    <string name="next_question">Next Question</string>
+</resources>

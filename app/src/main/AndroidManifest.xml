@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".model.CreateModels"
+
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/cardio_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/cardio_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CardioRef_HomePage"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.CardioQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".Add.AddNews"
+            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".util.AddNews"-->
+<!--            android:exported="false"-->
+<!--            tools:ignore="DuplicateActivity" />-->
+        <activity
+            android:name=".activities.CardioNewsLetter"
+            android:exported="false" />
+        <activity
+            android:name=".Add.AddWord"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CardioDictionary"
+            android:exported="false" />
+        <activity
+            android:name=".cvds_activities.RHDs"
+            android:exported="false" />
+        <activity
+            android:name=".cvds_activities.DVTs"
+            android:exported="false" />
+        <activity
+            android:name=".cvds_activities.CHD2s"
+            android:exported="false" />
+        <activity
+            android:name=".cvds_activities.PADs"
+            android:exported="false" />
+        <activity
+            android:name=".cvds_activities.CBDs"
+            android:exported="false" />
+        <activity
+            android:name=".cvds_activities.CHDs"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CDV_S"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
